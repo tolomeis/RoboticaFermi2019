@@ -13,10 +13,11 @@
 #define P_BLU A0
 
 #define K 0.05
-enum {rosso, verde, blu, nessuno} colore, coloreDest; //ci serve per scrivere nel programma i colori
+enum {rosso, verde, blu, nessuno} colore, coloreDest;  //ci serve per scrivere nel programma i colori
 
 QTRSensors qtr;
 Servo carrello;
+
 Colorpal colorp(10); //Sul Pin 10, credo
 
 const uint8_t SensorCount = 3;
